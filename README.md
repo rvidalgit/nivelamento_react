@@ -21,7 +21,7 @@ Observe os erros e alertas pelo console.
 
 ## Etapas:
 
-### 1 - Criado o projeto com o criador padrão do Facebook.
+### 1 - Criando o projeto com o criador padrão do Facebook.
 ```
 $ yarn create react-app nivelamento-react
 ```
