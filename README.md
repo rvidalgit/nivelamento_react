@@ -41,7 +41,7 @@ Para configurar o Redux será necessário adicionar duas dependências:
 1 - redux `yarn add react-redux`<br/>
 2 - react-redux `yarn add react-redux`
 
-E para acompanhar a mudança do estado na store é instalar o DEV TOOLS na aplicação e no navegador.
+E para acompanhar a mudança do estado na store é necessário instalar o DEV TOOLS na aplicação e no navegador.
 
 3 - redux-devtools `yarn add --dev redux-devtools-extension`<br/>
 4 - [Redux DevTools - Chrome](https://chrome.google.com/webstore/detail/redux-devtools/lmhkpmbekcpmknklioeibfkpmmfibljd?hl=pt-BR)<br/>
