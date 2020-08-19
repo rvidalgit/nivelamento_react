@@ -1,8 +1,10 @@
 import React from 'react';
-import Count from './modules/Count/view/index';
+import {Rotas} from "./router/rotas";
+import {ConnectedRouter} from 'connected-react-router';
+import {history} from "./store";
 
 function App() {
-    return (
+    /*return (
         <div>
             <header>
                 <h1>Primeiro código!!</h1>
@@ -12,6 +14,12 @@ function App() {
                 <Count/>
             </main>
         </div>
+    );*/
+
+    return (
+        <ConnectedRouter history={history}>
+            <Rotas/>
+        </ConnectedRouter>
     );
 }
 

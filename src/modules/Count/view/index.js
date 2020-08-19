@@ -5,10 +5,20 @@ import {subtract, sum} from '../redux/action';
 const Count = (props) => {
 
     return (
-        <div>
-            <h1>{props.numero}</h1>
-            <button onClick={props.sum}>Somar</button>
-            <button onClick={props.subtract}>Subtrair</button>
+        <div style={{margin: '20px 40%'}}>
+            <h1 style={{fontWeight: 'bold'}}>Utilize os botões abaixo: </h1>
+            <h2 style={{
+                margin: '15px',
+                border: '1px solid #000000',
+                display: 'inline-block',
+                padding: '10px',
+                borderRadius: '5px'
+            }}>{props.numero}</h2>
+
+            <div>
+                <button onClick={props.sum}>Somar</button>
+                <button onClick={props.subtract}>Subtrair</button>
+            </div>
         </div>
     );
 };
