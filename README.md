@@ -30,3 +30,22 @@ $ yarn create react-app nivelamento-react
 Acesse o link para conhecer [https://meyerweb.com/eric/tools/css/reset](https://meyerweb.com/eric/tools/css/reset)
 
 ### 3 - Removido o css não utilizado (App.css).
+
+### 4 - Configurado o React-Redux
+Acesse para conhecer [Exemplos do React-Redux](https://redux.js.org/basics/example).
+
+Para configurar o Redux será necessário adicionar duas dependências:
+
+1 - redux `yarn add react-redux`<br/>
+2 - react-redux `yarn add react-redux`
+
+E para acompanhar a mudança do estado na store é instalar o DEV TOOLS na aplicação e no navegador.
+
+3 - redux-devtools `yarn add --dev redux-devtools-extension<br/>
+4 - [Redux DevTools - Chrome](https://chrome.google.com/webstore/detail/redux-devtools/lmhkpmbekcpmknklioeibfkpmmfibljd?hl=pt-BR)<br/>
+5 - [Redux DevTools - Firefox](https://addons.mozilla.org/pt-BR/firefox/addon/reduxdevtools/?src=search)
+
+Aproveitando o gancho, seguem mais duas extensões muito importantes para debugar o código pelo navegador.
+
+6 - [React DevTools - Chrome](https://addons.mozilla.org/pt-BR/firefox/addon/react-devtools/?src=search)<br/>
+7 - [React DevTools - Firefox](https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi)
