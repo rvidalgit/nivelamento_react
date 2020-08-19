@@ -1,5 +1,5 @@
 import React from 'react';
-import Count from './modules/count/view/index';
+import Count from './modules/Count/view/index';
 
 function App() {
     return (
