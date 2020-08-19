@@ -30,3 +30,5 @@ $ yarn create react-app nivelamento-react
 Acesse o link para conhecer [https://meyerweb.com/eric/tools/css/reset](https://meyerweb.com/eric/tools/css/reset)
 
 ### 3 - Removido o css não utilizado (App.css).
+
+### 4 - Removido o serviceWorker.js, pois não teremos um PWA.
