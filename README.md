@@ -21,12 +21,12 @@ Observe os erros e alertas pelo console.
 
 ## Etapas:
 
-### 1 - Criado o projeto com o criador padrão do Facebook.
+### 1 - Criando o projeto com o criador padrão do Facebook.
 ```
 $ yarn create react-app nivelamento-react
 ```
 
-### 2 - Configurado o reset css.
+### 2 - Configurando o reset css.
 Acesse o link para conhecer [https://meyerweb.com/eric/tools/css/reset](https://meyerweb.com/eric/tools/css/reset)
 
 ### 3 - Removido o css não utilizado (App.css).
