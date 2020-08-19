@@ -26,14 +26,14 @@ Observe os erros e alertas pelo console.
 $ yarn create react-app nivelamento-react
 ```
 
-### 2 - Configurado o reset css.
+### 2 - Configurando o reset css.
 Acesse o link para conhecer [https://meyerweb.com/eric/tools/css/reset](https://meyerweb.com/eric/tools/css/reset)
 
 ### 3 - Removido o css não utilizado (App.css).
 
 ### 4 - Removido o serviceWorker.js, pois não teremos um PWA.
 
-### 5 - Configurado o React-Redux
+### 5 - Configurando o React-Redux.
 Acesse para conhecer [Exemplos do React-Redux](https://redux.js.org/basics/example).
 
 Para configurar o Redux será necessário adicionar duas dependências:
