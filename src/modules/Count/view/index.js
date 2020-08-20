@@ -1,6 +1,7 @@
 import React from "react";
 import {connect} from "react-redux";
 import {subtract, sum} from '../redux/action';
+import {push} from "connected-react-router";
 
 const Count = (props) => {
 
@@ -18,6 +19,7 @@ const Count = (props) => {
             <div>
                 <button onClick={props.sum}>Somar</button>
                 <button onClick={props.subtract}>Subtrair</button>
+                <button onClick={props.nextPage}>Next page</button>
             </div>
         </div>
     );
@@ -33,6 +35,7 @@ const mapToDispatchToProps = (dispatch) => {
     return {
         sum: () => dispatch(sum()),
         subtract: () => dispatch(subtract()),
+        nextPage: () => dispatch(push("/teste")),
     };
 };
 

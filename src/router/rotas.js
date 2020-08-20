@@ -2,12 +2,14 @@ import React from 'react';
 import {Route, Switch} from "react-router";
 import Count from '../modules/Count/view/index';
 
-const Teste = () =>{
+const Teste = () => {
     return (
         <h1>Ops, não tem nada aqui!</h1>
     );
 };
 
+//cria um filtro que intercepta a "mudança" de página, como a aplicação é um SPA, o react router intercepta
+// o path e direciona para o componente correto
 export const Rotas = () => (
     <Switch>
         <Route exact path="/" name="Count" component={Count}/>

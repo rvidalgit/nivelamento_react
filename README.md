@@ -51,3 +51,11 @@ Aproveitando o gancho, seguem mais duas extensões muito importantes para debuga
 
 6 - [React DevTools - Chrome](https://addons.mozilla.org/pt-BR/firefox/addon/react-devtools/?src=search)<br/>
 7 - [React DevTools - Firefox](https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi)
+
+### 6 - Configurando o React Router
+[Acesse aqui para ver a documentação](https://reactrouter.com/web/guides/quick-start)
+
+1 - react-router `yarn add -T react-router@^5.2.0`
+2 - react-router-dom `yarn add -T react-router-dom@^5.2.0`
+3 - history `yarn add -T history@^4.10.1`
+4 - connected-react-router `connected-react-router@^6.8.0`
