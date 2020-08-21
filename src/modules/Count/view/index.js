@@ -1,9 +1,18 @@
+//@flow
 import React from "react";
 import {connect} from "react-redux";
 import {subtract, sum} from '../redux/action';
 import {push} from "connected-react-router";
+import type {Store} from "../../../shared/flowTypes";
 
-const Count = (props) => {
+type Props = {
+    numero: number,
+    sum: () => void,
+    subtract: () => void,
+    nextPage: () => void,
+}
+
+const Count = (props: Props) => {
 
     return (
         <div style={{margin: '20px 40%'}}>
@@ -25,7 +34,7 @@ const Count = (props) => {
     );
 };
 
-const mapStateToProps = (store) => {
+const mapStateToProps = (store: Store) => {
     return {
         numero: store.COUNT.value,
     };

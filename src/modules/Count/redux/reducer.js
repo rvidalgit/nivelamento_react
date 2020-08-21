@@ -1,19 +1,26 @@
+//@flow
 import {SUBTRACT, SUM} from "./type";
+import type {Action} from "../../../shared/flowTypes";
 
-export const initialStateCount = {
+export type InitialStateCount = {
+    value: number,
+}
+
+export const initialStateCount: InitialStateCount = {
     value: 0
 };
 
-
-const sum = (value) => {
+const sum = (value: number) => {
     return value = value + 1;
 };
 
-const subtract = (value) => {
+const subtract = (value: number) => {
     return value = value - 1;
 };
 
-export const countReducer = (state = initialStateCount, action) => {
+type CountReducer = (state: InitialStateCount, action: Action) => Object;
+
+export const countReducer: CountReducer = (state: InitialStateCount = initialStateCount, action: Action): InitialStateCount => {
     switch (action.type) {
         case SUM :
             return ({
