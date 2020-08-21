@@ -59,7 +59,7 @@ Aproveitando o gancho, seguem mais duas extensões muito importantes para debuga
 
 Para configurar o React Router Dom será necessário inserir as seguintes dependências:
 
-1 - react-router `yarn add -T react-router@^5.2.0`<br/>
-2 - react-router-dom `yarn add -T react-router-dom@^5.2.0`<br/>
-3 - history `yarn add -T history@^4.10.1`<br/>
-4 - connected-react-router `connected-react-router@^6.8.0`
+1 - react-router `yarn add -T react-router@5.2.0`<br/>
+2 - react-router-dom `yarn add -T react-router-dom@5.2.0`<br/>
+3 - history `yarn add -T history@4.10.1`<br/>
+4 - connected-react-router `yarn add -T connected-react-router@6.8.0`
