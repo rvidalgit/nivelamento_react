@@ -19,6 +19,10 @@ Abra [http://localhost:3000](http://localhost:3000) e veja no navegador.
 A página será recarregada ao editar o código fonte.<br />
 Observe os erros e alertas pelo console.
 
+### `yarn flow`
+
+Verifica se existe algum erro de tipagem no projeto, nos arquivos anotados com _//@flow_.
+
 ## Etapas:
 
 ### 1 - Criando o projeto com o criador padrão do Facebook.
