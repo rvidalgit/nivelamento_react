@@ -22,6 +22,8 @@ Observe os erros e alertas pelo console.
 ## Etapas:
 
 ### 1 - Criando o projeto com o criador padrão do Facebook.
+[Página do GitHub que dá as instruções de como começar](https://github.com/facebook/create-react-app)
+
 ```
 $ yarn create react-app nivelamento-react
 ```
