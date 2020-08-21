@@ -63,15 +63,15 @@ Aproveitando o gancho, seguem mais duas extensões muito importantes para debuga
 
 Para configurar o React Router Dom será necessário inserir as seguintes dependências:
 
-1 - react-router `yarn add -T react-router@^5.2.0`
-2 - react-router-dom `yarn add -T react-router-dom@^5.2.0`
-3 - history `yarn add -T history@^4.10.1`
+1 - react-router `yarn add -T react-router@^5.2.0`<br/>
+2 - react-router-dom `yarn add -T react-router-dom@^5.2.0`<br/>
+3 - history `yarn add -T history@^4.10.1`<br/>
 4 - connected-react-router `connected-react-router@^6.8.0`
 
 ### 7 - Configurando o Flow.
 [Acesse aqui para conhecer sobre esse verificador de tipo](https://flow.org/en/)
 
-1 - flow `yarn add --dev flow-bin`
-2 - Adicionar o script do flow no package.json
+1 - flow `yarn add --dev flow-bin`<br/>
+2 - Adicionar o script do flow no package.json<br/>
 3 - Iniciar o flow `flow init`
 
