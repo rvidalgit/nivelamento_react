@@ -50,12 +50,12 @@ Para configurar o Redux será necessário adicionar duas dependências:
 E para acompanhar a mudança do estado na store é necessário instalar o DEV TOOLS na aplicação e no navegador.
 
 3 - redux-devtools `yarn add --dev redux-devtools-extension`<br/>
-4 - [Redux DevTools - Chrome](https://chrome.google.com/webstore/detail/redux-devtools/lmhkpmbekcpmknklioeibfkpmmfibljd?hl=pt-BR)<br/>
+4 - [Redux DevTools - Chrome](https://chrome.google.com/webstore/detail/redux-devtools/lmhkpmbekcpmknklioeibfkpmmfibljd?hl=pt-BR) <br/>
 5 - [Redux DevTools - Firefox](https://addons.mozilla.org/pt-BR/firefox/addon/reduxdevtools/?src=search)
 
 Aproveitando o gancho, seguem mais duas extensões muito importantes para debugar o código pelo navegador.
 
-6 - [React DevTools - Chrome](https://addons.mozilla.org/pt-BR/firefox/addon/react-devtools/?src=search)<br/>
+6 - [React DevTools - Chrome](https://addons.mozilla.org/pt-BR/firefox/addon/react-devtools/?src=search) <br/>
 7 - [React DevTools - Firefox](https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi)
 
 ### 6 - Configurando o React Router.
@@ -75,3 +75,14 @@ Para configurar o React Router Dom será necessário inserir as seguintes depend
 2 - Adicionar o script do flow no package.json<br/>
 3 - Iniciar o flow `flow init`
 
+### 8 - Configurando o Material UI
+[Acesse aqui para conhecer os componentes do Material](https://material-ui.com/pt/)
+
+1 - Adicionar a font Roboto no public/index.html
+```
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" />
+```
+2 - Instalar o Material Core `yarn add @material-ui/core`<br/>
+3 - Material Icons para ter acesso a biblioteca de icones `yarn add @material-ui/icons`<br/>
+4 - Criar um tema para ser incorporada ao projeto. (theme.js)<br/>
+5 - Adicionar o Material no arquivo do projeto. (App.js)
